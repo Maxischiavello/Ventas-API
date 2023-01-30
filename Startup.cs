@@ -70,6 +70,7 @@ namespace Ventas
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IVentaService, VentaService>();
             services.AddScoped<IClienteService, ClienteService>();
+            services.AddScoped<IProductoService, ProductoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
